@@ -1,0 +1,11 @@
+kwh = float(input("Consumo en kWh: "))
+
+# Cálculo
+subtotal = 5 + (kwh * 0.55)
+igv = subtotal * 0.18
+total = subtotal + igv
+
+# Salida
+print(f"Subtotal: S/. {subtotal:.2f}")
+print(f"IGV (18%): S/. {igv:.2f}")
+print(f"Total a pagar: S/. {total:.2f}")

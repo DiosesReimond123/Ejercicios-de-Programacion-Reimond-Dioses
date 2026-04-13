@@ -1,0 +1,10 @@
+# Entrada
+habitaciones = int(input("Número de habitaciones: "))
+banos = int(input("Número de baños: "))
+patios = int(input("Número de patios: "))
+
+# Proceso
+total = (habitaciones * 30) + (banos * 10) + (patios * 15)
+
+# Salida
+print(f"Total mensual a pagar: S/. {total:.2f}")
